@@ -148,6 +148,8 @@ test("renders button with label and handles click event", () => {
 
 - The `jest.fn()` function of `handleClick` is what allows us to test if the button has been called and dispatched a click. We then test this by using either `.toHaveBeenCalled()` or to be more precise, you can use `toHaveBeenCalledTime(<amount_of_times_expected)`
 
+<hr>
+
 ## Using-Tailwind-CSS
 
 - Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without writing custom CSS. This project is already configured to use Tailwind CSS. Below are some basic instructions and examples to help you get started.
@@ -194,9 +196,13 @@ export default Button;
 
 - There's some examples of how you would use Tailwind in your project, but it's always more beneficial to read docs to learn for yourself.
 
+<hr>
+
 ## Support
 
 Connect with us on [Discord](https://discord.gg/xcMVwAVjSD) for support / any related inquiry.
+
+<hr>
 
 ## License
 
