@@ -60,6 +60,8 @@ This will go through how to setup the repo in order for you to begin using it.
 
 Unit testing is a core part of creating a full functioning application and allows all parts of the site to be tested. The testing library on this repo is the React Testing Library, RTL for short. This library tests whatever renders on the _"screen"_. For this, we test everything that is being rended on that screen, oppose to library's such as `enzyme` which test the functionality of the page instead of what the user sees.
 
+- To run your unit tests, I would recommend installing `jest runner` VsCode extension or you can run the command `npm run test-all`, this however, will run all test file that `jest` finds. To run individual files, `jest runner` is required. **VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner**
+
 - **Testing Text**
 
 - Below is an example of how you would test a component that renders a piece of text on the page.
