@@ -2,9 +2,9 @@
 
 <p align="center">
 <img align="center" alt="GitHub issues" src="https://img.shields.io/github/issues/Kkkermit/jest-ts-example?style=for-the-badge"> 
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/license/Kkkermit/Testify?style=for-the-badge">
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/stars/Kkkermit/Testify?style=for-the-badge">
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/forks/Kkkermit/Testify?style=for-the-badge">
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/license/Kkkermit/jest-ts-example?style=for-the-badge">
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/stars/Kkkermit/jest-ts-example?style=for-the-badge">
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/forks/Kkkermit/jest-ts-example?style=for-the-badge">
 </p>
 
 <p align="center"><strong>
