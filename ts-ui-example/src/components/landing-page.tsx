@@ -1,7 +1,7 @@
 function Landing() {
 	return (
 		<>
-			<h1>ewefwfwefwfefe</h1>
+			<h1>Something...</h1>
 		</>
 	);
 }
