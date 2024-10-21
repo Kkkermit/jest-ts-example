@@ -1,10 +1,10 @@
 <img align="center" alt="Nub Bot banner" src="https://i.postimg.cc/QCfKdk7C/ts-ui-img.png">
 
 <p align="center">
-<img align="center" alt="GitHub issues" src="https://img.shields.io/github/issues/Kkkermit/Testify?style=for-the-badge"> 
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/license/Kkkermit/Testify?style=for-the-badge">
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/stars/Kkkermit/Testify?style=for-the-badge">
-<img align="center" alt="GitHub license" src="https://img.shields.io/github/forks/Kkkermit/Testify?style=for-the-badge">
+<img align="center" alt="GitHub issues" src="https://img.shields.io/github/issues/Kkkermit/tsjest-ts-example?style=for-the-badge"> 
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/license/Kkkermit/jest-ts-example?style=for-the-badge">
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/stars/Kkkermit/jest-ts-example?style=for-the-badge">
+<img align="center" alt="GitHub license" src="https://img.shields.io/github/forks/Kkkermit/jest-ts-example?style=for-the-badge">
 </p>
 
 <p align="center"><strong>
