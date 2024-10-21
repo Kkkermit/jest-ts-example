@@ -23,6 +23,7 @@ Built with TypeScript and using Vite as a react framework, this model helps as a
 
 - [Getting-Started](#getting-started)
 - [Unit-Testing](#unit-testing)
+- [Using-Tailwind-CSS](#using-tailwind-css)
 - [Support](#support)
 - [License](#license)
 
@@ -145,3 +146,57 @@ test("renders button with label and handles click event", () => {
 ```
 
 - The `jest.fn()` function of `handleClick` is what allows us to test if the button has been called and dispatched a click. We then test this by using either `.toHaveBeenCalled()` or to be more precise, you can use `toHaveBeenCalledTime(<amount_of_times_expected)`
+
+## Using-Tailwind-CSS
+
+- Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without writing custom CSS. This project is already configured to use Tailwind CSS. Below are some basic instructions and examples to help you get started.
+- When using TailwindCss, you can either follow these docs: https://v2.tailwindcss.com/docs or https://tailwindui.com/components for pre built components.
+
+- **TailwindCSS Usage**
+
+- You can use Tailwind to make and style pretty much anything, here an example of how you would center text on a page.
+
+```tsx
+import "../styles/index.css";
+
+function CenteredContent() {
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <h1 className="text-blue-600 text-4xl">Centered Content</h1>
+    </div>
+  );
+}
+
+export default CenteredContent;
+```
+
+- Here another example of how would use TailwindCSS in order to style a button.
+
+```tsx
+import React from "react";
+
+interface ButtonProps {
+  label: string;
+  onClick: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+  return (
+    <button onClick={onClick} className="bg-blue-500 text-white p-2 rounded">
+      {label}
+    </button>
+  );
+};
+
+export default Button;
+```
+
+- There's some examples of how you would use Tailwind in your project, but it's always more beneficial to read docs to learn for yourself.
+
+## Support
+
+Connect with us on [Discord](https://discord.gg/xcMVwAVjSD) for support / any related inquiry.
+
+## License
+
+Released under the terms of [MIT License](https://github.com/Kkkermit/Testify/blob/main/LICENSE) license.
