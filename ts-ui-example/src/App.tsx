@@ -1,11 +1,11 @@
-import "./styles/App.css";
+import "./styles/index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Landing from "./components/landing-page";
+import Landing from "./components/landingPage/landing-page";
 
 function App() {
 	return (
 		<>
-			<div id="container" data-testid="render-ui">
+			<div className="bg-gray-800 min-h-screen" id="container" data-testid="render-ui">
 				<Router>
 					<Routes>
 						<Route path="/" element={<Landing />} />
